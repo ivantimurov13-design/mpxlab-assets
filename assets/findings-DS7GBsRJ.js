@@ -1,0 +1,1 @@
+import{s as e}from"./health-dVffnhHP.js";function s(r){const t=new Map;for(const n of r){if(!n.nm_id||n.nm_id<=0)continue;const i=t.get(n.nm_id);(!i||e(n.severity).rank>e(i.severity).rank)&&t.set(n.nm_id,n)}return t}export{s as t};
